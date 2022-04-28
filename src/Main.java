@@ -31,7 +31,7 @@ public class Main {
 
         // alternatively: Arrays.sort(numbersToBeSorted); (java.util.Arrays needs to be imported for this to work )
 
-        for (int k=0; k<=numbersToBeSorted.length-1; k++){
+        for (int k=0; k<numbersToBeSorted.length; k++){
             System.out.println("At position " + k + " is the value: " + numbersToBeSorted[k]);
         }
 
